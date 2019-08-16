@@ -74,6 +74,9 @@
           },
           "catch": {
             "after": false
+          },
+          "return": {
+            "after": false
           }
         }
       }

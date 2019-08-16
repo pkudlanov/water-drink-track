@@ -1,6 +1,8 @@
 import React from 'react';
+import DrinkForm from './DrinkForm';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return(
+    <DrinkForm/>
+  );
 }
-  
