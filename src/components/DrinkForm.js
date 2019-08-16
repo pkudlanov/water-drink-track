@@ -19,11 +19,11 @@ export default class DrinkForm extends Component{
   }
 
   render(){
-    const { water, input } = this.state;
+    const { water, inputBox } = this.state;
 
     return(
       <form onSubmit={this.handleSubmit}>
-        <input name="number" type="number" onChange={this.handleInput} value={input} placeholder="oz of H2O"/>
+        <input name="number" type="number" onChange={this.handleInput} value={inputBox} placeholder="oz of H2O"/>
         <div>oz</div>
         <button>Add Water Drunk</button>
 
